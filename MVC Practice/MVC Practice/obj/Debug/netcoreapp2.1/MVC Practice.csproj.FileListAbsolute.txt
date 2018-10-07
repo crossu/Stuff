@@ -1,0 +1,39 @@
+D:\Repo\Stuff\MVC Practice\MVC Practice\bin\Debug\netcoreapp2.1\MVC Practice.deps.json
+D:\Repo\Stuff\MVC Practice\MVC Practice\bin\Debug\netcoreapp2.1\MVC Practice.runtimeconfig.json
+D:\Repo\Stuff\MVC Practice\MVC Practice\bin\Debug\netcoreapp2.1\MVC Practice.runtimeconfig.dev.json
+D:\Repo\Stuff\MVC Practice\MVC Practice\bin\Debug\netcoreapp2.1\MVC Practice.dll
+D:\Repo\Stuff\MVC Practice\MVC Practice\obj\Debug\netcoreapp2.1\MVC Practice.csprojAssemblyReference.cache
+D:\Repo\Stuff\MVC Practice\MVC Practice\obj\Debug\netcoreapp2.1\MVC Practice.csproj.CoreCompileInputs.cache
+D:\Repo\Stuff\MVC Practice\MVC Practice\obj\Debug\netcoreapp2.1\MVC Practice.RazorAssemblyInfo.cache
+D:\Repo\Stuff\MVC Practice\MVC Practice\obj\Debug\netcoreapp2.1\MVC Practice.RazorAssemblyInfo.cs
+D:\Repo\Stuff\MVC Practice\MVC Practice\obj\Debug\netcoreapp2.1\MVC Practice.AssemblyInfoInputs.cache
+D:\Repo\Stuff\MVC Practice\MVC Practice\obj\Debug\netcoreapp2.1\MVC Practice.AssemblyInfo.cs
+D:\Repo\Stuff\MVC Practice\MVC Practice\obj\Debug\netcoreapp2.1\MVC Practice.TagHelpers.input.cache
+D:\Repo\Stuff\MVC Practice\MVC Practice\obj\Debug\netcoreapp2.1\MVC Practice.TagHelpers.output.cache
+D:\Repo\Stuff\MVC Practice\MVC Practice\obj\Debug\netcoreapp2.1\MVC Practice.RazorCoreGenerate.cache
+D:\Repo\Stuff\MVC Practice\MVC Practice\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+D:\Repo\Stuff\MVC Practice\MVC Practice\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+D:\Repo\Stuff\MVC Practice\MVC Practice\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+D:\Repo\Stuff\MVC Practice\MVC Practice\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\Repo\Stuff\MVC Practice\MVC Practice\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+D:\Repo\Stuff\MVC Practice\MVC Practice\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\Repo\Stuff\MVC Practice\MVC Practice\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\Repo\Stuff\MVC Practice\MVC Practice\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\Repo\Stuff\MVC Practice\MVC Practice\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+D:\Repo\Stuff\MVC Practice\MVC Practice\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+D:\Repo\Stuff\MVC Practice\MVC Practice\obj\Debug\netcoreapp2.1\MVC Practice.RazorTargetAssemblyInfo.cache
+D:\Repo\Stuff\MVC Practice\MVC Practice\obj\Debug\netcoreapp2.1\MVC Practice.RazorTargetAssemblyInfo.cs
+D:\Repo\Stuff\MVC Practice\MVC Practice\bin\Debug\netcoreapp2.1\MVC Practice.pdb
+D:\Repo\Stuff\MVC Practice\MVC Practice\bin\Debug\netcoreapp2.1\MVC Practice.Views.dll
+D:\Repo\Stuff\MVC Practice\MVC Practice\bin\Debug\netcoreapp2.1\MVC Practice.Views.pdb
+D:\Repo\Stuff\MVC Practice\MVC Practice\obj\Debug\netcoreapp2.1\MVC Practice.Views.pdb
+D:\Repo\Stuff\MVC Practice\MVC Practice\obj\Debug\netcoreapp2.1\MVC Practice.dll
+D:\Repo\Stuff\MVC Practice\MVC Practice\obj\Debug\netcoreapp2.1\MVC Practice.pdb
+D:\Repo\Stuff\MVC Practice\MVC Practice\obj\Debug\netcoreapp2.1\MVC Practice.csproj.CopyComplete
+D:\Repo\Stuff\MVC Practice\MVC Practice\obj\Debug\netcoreapp2.1\Razor\Views\HelloWorld\Index.g.cshtml.cs
+D:\Repo\Stuff\MVC Practice\MVC Practice\obj\Debug\netcoreapp2.1\Razor\Views\HelloWorld\Welcome.g.cshtml.cs
+D:\Repo\Stuff\MVC Practice\MVC Practice\obj\Debug\netcoreapp2.1\Razor\Views\Movies\Create.g.cshtml.cs
+D:\Repo\Stuff\MVC Practice\MVC Practice\obj\Debug\netcoreapp2.1\Razor\Views\Movies\Delete.g.cshtml.cs
+D:\Repo\Stuff\MVC Practice\MVC Practice\obj\Debug\netcoreapp2.1\Razor\Views\Movies\Details.g.cshtml.cs
+D:\Repo\Stuff\MVC Practice\MVC Practice\obj\Debug\netcoreapp2.1\Razor\Views\Movies\Edit.g.cshtml.cs
+D:\Repo\Stuff\MVC Practice\MVC Practice\obj\Debug\netcoreapp2.1\Razor\Views\Movies\Index.g.cshtml.cs

@@ -1,4 +1,4 @@
-﻿@page
+﻿@page "{id:int?}"
 @model ContosoUniversity.Pages.Students.DetailsModel
 
 @{
@@ -26,8 +26,27 @@
         <dt>
             @Html.DisplayNameFor(model => model.Student.EnrollmentDate)
         </dt>
-        <dd>
+        <dt>
             @Html.DisplayFor(model => model.Student.EnrollmentDate)
+        </dt>
+        <dd>
+            <table class="table">
+                <tr>
+                    <th>Course Title</th>
+                    <th>Grade</th>
+                </tr>
+                @foreach (var item in Model.Student.Enrollments)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Course)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Grade)
+                        </td>
+                    </tr>
+                }
+            </table>
         </dd>
     </dl>
 </div>

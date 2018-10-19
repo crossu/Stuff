@@ -30,3 +30,8 @@ C:\Personal\Learning\Repos\Stuff\ContosoUniversity\ContosoUniversity\obj\Debug\n
 C:\Personal\Learning\Repos\Stuff\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.1\ContosoUniversity.dll
 C:\Personal\Learning\Repos\Stuff\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.1\ContosoUniversity.pdb
 C:\Personal\Learning\Repos\Stuff\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.1\ContosoUniversity.csproj.CopyComplete
+C:\Personal\Learning\Repos\Stuff\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.1\Razor\Pages\Students\Create.g.cshtml.cs
+C:\Personal\Learning\Repos\Stuff\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.1\Razor\Pages\Students\Delete.g.cshtml.cs
+C:\Personal\Learning\Repos\Stuff\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.1\Razor\Pages\Students\Details.g.cshtml.cs
+C:\Personal\Learning\Repos\Stuff\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.1\Razor\Pages\Students\Edit.g.cshtml.cs
+C:\Personal\Learning\Repos\Stuff\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.1\Razor\Pages\Students\Index.g.cshtml.cs

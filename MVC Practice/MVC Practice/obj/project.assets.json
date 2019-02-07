@@ -12218,23 +12218,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\chamn\\.nuget\\packages\\": {},
+    "C:\\Users\\michal.chamny\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repo\\Stuff\\MVC Practice\\MVC Practice\\MVC Practice.csproj",
+      "projectUniqueName": "C:\\Personal\\Learning\\Repos\\Stuff\\MVC Practice\\MVC Practice\\MVC Practice.csproj",
       "projectName": "MVC Practice",
-      "projectPath": "D:\\Repo\\Stuff\\MVC Practice\\MVC Practice\\MVC Practice.csproj",
-      "packagesPath": "C:\\Users\\chamn\\.nuget\\packages\\",
-      "outputPath": "D:\\Repo\\Stuff\\MVC Practice\\MVC Practice\\obj\\",
+      "projectPath": "C:\\Personal\\Learning\\Repos\\Stuff\\MVC Practice\\MVC Practice\\MVC Practice.csproj",
+      "packagesPath": "C:\\Users\\michal.chamny\\.nuget\\packages\\",
+      "outputPath": "C:\\Personal\\Learning\\Repos\\Stuff\\MVC Practice\\MVC Practice\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\chamn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\michal.chamny\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -4,6 +4,8 @@
 #include "pch.h"
 #include <iostream>
 #include <stdint.h>
+#include <string>
+#include <vector>
 
 uint32_t GetBitsFromUint32(uint32_t inputValue, uint8_t bitOffset, uint8_t bitLength)
 {
@@ -18,16 +20,64 @@ uint32_t GetBitsFromUint32(uint32_t inputValue, uint8_t bitOffset, uint8_t bitLe
 	return value;
 }
 
-uint32_t GetBitsFromUint32(const char * inputValue, uint8_t bitOffset, uint8_t bitLength)
+int GetBitsFromUint32(const char* inputValue, uint8_t bitOffset, uint8_t bitLength)
 {
-	uint32_t temp = 0;
+	uint32_t temp;
+	temp = std::strtoul(inputValue, NULL, 16);
+	return GetBitsFromUint32(temp, bitOffset, bitLength);
+}
+
+std::vector<bool> ConvertToBinary(int number)
+{
+	std::vector<bool> vektor;
+	while (number != 0)
+	{
+		if (number % 2 == 0)
+		{
+			vektor.push_back(false);
+		}
+		if (number % 2 == 1)
+		{
+			vektor.push_back(true);
+		}
+		number = number / 2;
+	}
+	return vektor;
+}
+std::vector<bool> GetBitsVector(std::string inputValue)
+{
+	//tutaj troche musialem podejzec rozwiazanie
+	std::vector<bool> vektor;
+	int temp = 1;
+	if (inputValue.at(1) == 'x')
+	{
+		int temp = std::strtol(inputValue.c_str(), NULL, 0);
+		return ConvertToBinary(temp);
+	}
+	else
+	{
+		int temp = std::stoi(inputValue);
+		return ConvertToBinary(temp);
+	}
+}
+
+void DisplayVector(std::vector<bool> vector)
+{
+	for (int i = 0; i < vector.size(); i++)
+	{
+		std::cout << vector[i];
+	}
 }
 
 int main()
 {
-    std::cout << "Hello World!\n"; 
 	std::cout << std::hex << GetBitsFromUint32(0xABCDEF12, 4, 12);
+	std::cout << "\n";
+	std::cout << std::hex << GetBitsFromUint32("0xABCDEF12", 4, 12);
+	std::cout << "\n";
+	DisplayVector(GetBitsVector("123"));
 }
+
 
 // Uruchomienie programu: Ctrl + F5 lub menu Debugowanie > Uruchom bez debugowania
 // Debugowanie programu: F5 lub menu Debugowanie > Rozpocznij debugowanie

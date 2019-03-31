@@ -1,0 +1,6 @@
+﻿  Zadanie4.cpp
+d:\repo\stuff\zadanie4\zadanie4\zadanie4.cpp(73): warning C4477: „printf”: ciąg formatu „%s” wymaga argumentu typu „char *”, ale argument 1 ze zmienną liczbą argumentów ma typ „std::string”
+d:\repo\stuff\zadanie4\zadanie4\zadanie4.cpp(88): warning C4477: „printf”: ciąg formatu „%s” wymaga argumentu typu „char *”, ale argument 1 ze zmienną liczbą argumentów ma typ „std::string”
+d:\repo\stuff\zadanie4\zadanie4\zadanie4.cpp(93): warning C4477: „printf”: ciąg formatu „%s” wymaga argumentu typu „char *”, ale argument 1 ze zmienną liczbą argumentów ma typ „std::string”
+d:\repo\stuff\zadanie4\zadanie4\zadanie4.cpp(97): warning C4477: „printf”: ciąg formatu „%s” wymaga argumentu typu „char *”, ale argument 1 ze zmienną liczbą argumentów ma typ „std::string”
+d:\repo\stuff\zadanie4\zadanie4\zadanie4.cpp(107): error C2228: po lewej ".begin" musi być typ struct/union

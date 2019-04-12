@@ -25,8 +25,6 @@ public:
 		{
 			Tree * tree = *it;
 			tree->~Tree();
-			delete tree;
-			printf("destroyed");
 		}
 	}
 
@@ -100,9 +98,9 @@ int main()
 	Tree * anotherone2 = anotherone->AddSub("brunch2");
 	Tree * anotherone3 = anotherone2->AddSub("brunch3");
 	Tree * anotherone4 = branch2->AddSub("branch22");
-	//printf("%d", root->GetChilds());
-	//printf("\n%d", root->GetAllChilds());
-	//root->Printf(true);
+	printf("%d\n", root->GetChilds());
+	printf("%d\n", root->GetAllChilds());
+	root->Printf(true);
 	delete(root);
 }
 

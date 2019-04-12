@@ -4,6 +4,8 @@
 #include "pch.h"
 #include <iostream>
 #include <list>
+#include <string>
+#include <vector>
 
 class Tree
 {
@@ -17,14 +19,15 @@ public:
 		_name = name;
 	}
 
-	std::string GetName()
+	~Tree()
 	{
-		return _name;
-	}
-
-	std::list<Tree *> GetBranches()
-	{
-		return _branches;
+		for (std::list<Tree *>::iterator it = this->_branches.begin(); it != _branches.end(); ++it)
+		{
+			Tree * tree = *it;
+			tree->~Tree();
+			delete tree;
+			printf("destroyed");
+		}
 	}
 
 	Tree * AddSub(std::string name)
@@ -36,7 +39,7 @@ public:
 	int GetChilds()
 	{
 		int count = 0;
-		for (unsigned int i = 0; i < _branches.size(); i++)
+		for (unsigned int i = 0; i < this->_branches.size(); i++)
 		{
 			count++;
 		}
@@ -45,74 +48,46 @@ public:
 	int GetAllChilds()
 	{
 		int count = 0;
-		for (std::list<Tree *>::iterator it = _branches.begin(); it != _branches.end(); ++it)
+
+		for (std::list<Tree *>::iterator it = this->_branches.begin(); it != _branches.end(); ++it)
 		{
 			Tree * tree = *it;
 			count++;
-			for (unsigned int j = 0; j < tree->_branches.size(); j++)
-			{
-				count++;
-			}
+			count += tree->GetAllChilds();
 		}
 		return count;
 	}
 
-	void Delete(Tree * tree)
+	void Printf(bool show = false, int count = 1, std::string iterator = "1")
 	{
-		for (std::list<Tree *>::iterator it = _branches.begin(); it != _branches.end(); ++it)
-		{
-			Tree * tree = *it;
-			tree->_branches.clear();
-		}
-		tree->_branches.clear();
-	}
-	void Printf(bool show = false)
-	{
-		//glowny problem tutaj, nie jestem w stanie z pointera iteratora uzyskac obiektu w liscie
 		if (show)
 		{
- 			printf("%s", "1."+_name);
-			int count = 0;
-			for (std::list<Tree *>::iterator it = _branches.begin(); it != _branches.end(); ++it)
+			printf("%s.%s\n", iterator.c_str(), this->_name.c_str());
+			count++;
+			int i = 1;
+			for (std::list<Tree *>::iterator it = this->_branches.begin(); it != _branches.end(); ++it)
 			{
-				count++;
 				Tree * tree = *it;
-				//spodziewalem sie ze tree bedzie moglo wyciagnac wartosc _name ale zwraca zupelnie inne wartosci
-				printf("%s\n", tree->_name);
-				for (std::list<Tree *>::iterator jt = _branches.begin(); jt != _branches.end(); ++jt)
-				{
-					Tree * tree2 = *jt;
-					printf("%s\n", tree2->GetName());
-				}
+				iterator = iterator + "." + std::to_string(i);
+				printf("%*s", count, "");
+				tree->Printf(true, count, iterator);
+				iterator = std::to_string(i);
+				i++;
 			}
-
 		}
 		else
 		{
-			printf("%s", this->GetName());
-			for (std::list<Tree *>::iterator it = _branches.begin(); it != _branches.end(); ++it)
+			printf("%s\n", this->_name.c_str());
+			count++;
+			for (std::list<Tree *>::iterator it = this->_branches.begin(); it != _branches.end(); ++it)
 			{
+				printf("%*s", count, "");
 				Tree * tree = *it;
-				printf("%s\n", tree->_name);
-				for (std::list<Tree *>::iterator jt = _branches.begin(); jt != _branches.end(); ++jt)
-				{
-					Tree * tree2 = *jt;
-					printf("%s\n", tree2->GetName());
-				}
+				tree->Printf(false, count);
+
 			}
 		}
 	}
-};
-
-void Delete(Tree * tree)
-{
-	//tutaj dostaje blad C2228 po lewej .begin musi byc typ struct/union
-	for (std::list<Tree *>::iterator it = tree->GetBranches.begin(); it != tree->GetBranches.end(); ++it)
-	{
-		Tree * tree1 = *it;
-		tree1->GetBranches.clear();
-	}
-	tree->GetBranches.clear();
 };
 
 int main()
@@ -121,11 +96,14 @@ int main()
 	Tree * branch = root->AddSub("branch");
 	Tree * branch2 = root->AddSub("branch2");
 	Tree * branchofbranch = branch->AddSub("branch3");
-	Delete(root);
-	printf("%d", root->GetChilds());
-	printf("\n%d", root->GetAllChilds());
-	printf("\n");
-	root->Printf();
+	Tree * anotherone = branchofbranch->AddSub("brunch1");
+	Tree * anotherone2 = anotherone->AddSub("brunch2");
+	Tree * anotherone3 = anotherone2->AddSub("brunch3");
+	Tree * anotherone4 = branch2->AddSub("branch22");
+	//printf("%d", root->GetChilds());
+	//printf("\n%d", root->GetAllChilds());
+	//root->Printf(true);
+	delete(root);
 }
 
 // Uruchomienie programu: Ctrl + F5 lub menu Debugowanie > Uruchom bez debugowania

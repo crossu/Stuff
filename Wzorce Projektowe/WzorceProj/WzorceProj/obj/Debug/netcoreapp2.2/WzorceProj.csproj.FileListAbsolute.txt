@@ -1,0 +1,11 @@
+C:\Personal\Learning\Repos\Stuff\Wzorce Projektowe\WzorceProj\WzorceProj\bin\Debug\netcoreapp2.2\WzorceProj.deps.json
+C:\Personal\Learning\Repos\Stuff\Wzorce Projektowe\WzorceProj\WzorceProj\bin\Debug\netcoreapp2.2\WzorceProj.runtimeconfig.json
+C:\Personal\Learning\Repos\Stuff\Wzorce Projektowe\WzorceProj\WzorceProj\bin\Debug\netcoreapp2.2\WzorceProj.runtimeconfig.dev.json
+C:\Personal\Learning\Repos\Stuff\Wzorce Projektowe\WzorceProj\WzorceProj\bin\Debug\netcoreapp2.2\WzorceProj.dll
+C:\Personal\Learning\Repos\Stuff\Wzorce Projektowe\WzorceProj\WzorceProj\bin\Debug\netcoreapp2.2\WzorceProj.pdb
+C:\Personal\Learning\Repos\Stuff\Wzorce Projektowe\WzorceProj\WzorceProj\obj\Debug\netcoreapp2.2\WzorceProj.csprojAssemblyReference.cache
+C:\Personal\Learning\Repos\Stuff\Wzorce Projektowe\WzorceProj\WzorceProj\obj\Debug\netcoreapp2.2\WzorceProj.csproj.CoreCompileInputs.cache
+C:\Personal\Learning\Repos\Stuff\Wzorce Projektowe\WzorceProj\WzorceProj\obj\Debug\netcoreapp2.2\WzorceProj.AssemblyInfoInputs.cache
+C:\Personal\Learning\Repos\Stuff\Wzorce Projektowe\WzorceProj\WzorceProj\obj\Debug\netcoreapp2.2\WzorceProj.AssemblyInfo.cs
+C:\Personal\Learning\Repos\Stuff\Wzorce Projektowe\WzorceProj\WzorceProj\obj\Debug\netcoreapp2.2\WzorceProj.dll
+C:\Personal\Learning\Repos\Stuff\Wzorce Projektowe\WzorceProj\WzorceProj\obj\Debug\netcoreapp2.2\WzorceProj.pdb

@@ -1,0 +1,17 @@
+C:\Personal\Learning\Repos\Stuff\Projects\WcfRestCore\WCFRestCore\obj\Debug\netcoreapp2.2\WCFRestCore.csproj.CoreCompileInputs.cache
+C:\Personal\Learning\Repos\Stuff\Projects\WcfRestCore\WCFRestCore\obj\Debug\netcoreapp2.2\WCFRestCore.RazorAssemblyInfo.cache
+C:\Personal\Learning\Repos\Stuff\Projects\WcfRestCore\WCFRestCore\obj\Debug\netcoreapp2.2\WCFRestCore.RazorAssemblyInfo.cs
+C:\Personal\Learning\Repos\Stuff\Projects\WcfRestCore\WCFRestCore\obj\Debug\netcoreapp2.2\WCFRestCore.AssemblyInfoInputs.cache
+C:\Personal\Learning\Repos\Stuff\Projects\WcfRestCore\WCFRestCore\obj\Debug\netcoreapp2.2\WCFRestCore.AssemblyInfo.cs
+C:\Personal\Learning\Repos\Stuff\Projects\WcfRestCore\WCFRestCore\bin\Debug\netcoreapp2.2\WCFRestCore.deps.json
+C:\Personal\Learning\Repos\Stuff\Projects\WcfRestCore\WCFRestCore\bin\Debug\netcoreapp2.2\WCFRestCore.runtimeconfig.json
+C:\Personal\Learning\Repos\Stuff\Projects\WcfRestCore\WCFRestCore\bin\Debug\netcoreapp2.2\WCFRestCore.runtimeconfig.dev.json
+C:\Personal\Learning\Repos\Stuff\Projects\WcfRestCore\WCFRestCore\bin\Debug\netcoreapp2.2\WCFRestCore.dll
+C:\Personal\Learning\Repos\Stuff\Projects\WcfRestCore\WCFRestCore\bin\Debug\netcoreapp2.2\WCFRestCore.pdb
+C:\Personal\Learning\Repos\Stuff\Projects\WcfRestCore\WCFRestCore\bin\Debug\netcoreapp2.2\WCFProxy.dll
+C:\Personal\Learning\Repos\Stuff\Projects\WcfRestCore\WCFRestCore\bin\Debug\netcoreapp2.2\WCFProxy.pdb
+C:\Personal\Learning\Repos\Stuff\Projects\WcfRestCore\WCFRestCore\obj\Debug\netcoreapp2.2\WCFRestCore.csprojAssemblyReference.cache
+C:\Personal\Learning\Repos\Stuff\Projects\WcfRestCore\WCFRestCore\obj\Debug\netcoreapp2.2\WCFRestCore.RazorTargetAssemblyInfo.cache
+C:\Personal\Learning\Repos\Stuff\Projects\WcfRestCore\WCFRestCore\obj\Debug\netcoreapp2.2\WCFRestCore.csproj.CopyComplete
+C:\Personal\Learning\Repos\Stuff\Projects\WcfRestCore\WCFRestCore\obj\Debug\netcoreapp2.2\WCFRestCore.dll
+C:\Personal\Learning\Repos\Stuff\Projects\WcfRestCore\WCFRestCore\obj\Debug\netcoreapp2.2\WCFRestCore.pdb

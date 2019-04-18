@@ -1,0 +1,9 @@
+C:\Personal\Learning\Repos\Stuff\Projects\WcfRestCore\WCFProxy\bin\Debug\netcoreapp2.2\WCFProxy.deps.json
+C:\Personal\Learning\Repos\Stuff\Projects\WcfRestCore\WCFProxy\bin\Debug\netcoreapp2.2\WCFProxy.dll
+C:\Personal\Learning\Repos\Stuff\Projects\WcfRestCore\WCFProxy\bin\Debug\netcoreapp2.2\WCFProxy.pdb
+C:\Personal\Learning\Repos\Stuff\Projects\WcfRestCore\WCFProxy\obj\Debug\netcoreapp2.2\WCFProxy.csprojAssemblyReference.cache
+C:\Personal\Learning\Repos\Stuff\Projects\WcfRestCore\WCFProxy\obj\Debug\netcoreapp2.2\WCFProxy.csproj.CoreCompileInputs.cache
+C:\Personal\Learning\Repos\Stuff\Projects\WcfRestCore\WCFProxy\obj\Debug\netcoreapp2.2\WCFProxy.AssemblyInfoInputs.cache
+C:\Personal\Learning\Repos\Stuff\Projects\WcfRestCore\WCFProxy\obj\Debug\netcoreapp2.2\WCFProxy.AssemblyInfo.cs
+C:\Personal\Learning\Repos\Stuff\Projects\WcfRestCore\WCFProxy\obj\Debug\netcoreapp2.2\WCFProxy.dll
+C:\Personal\Learning\Repos\Stuff\Projects\WcfRestCore\WCFProxy\obj\Debug\netcoreapp2.2\WCFProxy.pdb
